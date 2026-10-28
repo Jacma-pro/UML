@@ -35,3 +35,22 @@ le changement minimal des données à conserver et ses cardinalités.
 Livrable : `TP-02-cartes.md`, avec scénario, diagrammes et résultats attendus.
 
 
+## Réalisation
+
+
+### Etape A — Cas d'utilisation « Jouer une carte »
+```mermaid
+usecase-beta
+direction LR
+actor player("Joueur")
+systemBoundary "Rules"
+  J1("chaque carte de cette partie a un identifiant unique et une valeur.")
+  J2("jouer une carte disponible la fait passer à l'état joué.")
+  J3("rejouer une carte déjà jouée est refusé sans changer son état.")
+  J4("réactiver une carte jouée la rend disponible ; une carte déjà disponible")
+end
+player --> J1
+player --> J2
+player --> J3
+player --> J4
+```
