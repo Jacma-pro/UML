@@ -17,5 +17,15 @@
   - Il peut suivre l'état du stock
 - Les étudiants :
   - Ils peuvent réserver du matériel
+- la fiche de suivi du matériel :
+  - Elle contient le nom de l'étudiant, le matériel loué, la date de réservation, la date de retour, etc.
 
-#### Qui fait quoi ? Dans quel ordre ?
+#### Qui fait quoi, dans quel ordre ?
+- Un étudidant identifé chosit un materiel et demande à l'école de l'emprunter
+
+
+
+## Outils
+
+Mermaid live editor : https://mermaid.live/
+- Utile pour générer des diagrammes UML à partir de texte. Peut-être fort combiné avec nos connaissances et l'IA
