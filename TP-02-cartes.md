@@ -54,3 +54,4 @@ player --> J2
 player --> J3
 player --> J4
 ```
+![](jouerUneCarte.png)
