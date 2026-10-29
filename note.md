@@ -29,3 +29,28 @@
 
 Mermaid live editor : https://mermaid.live/
 - Utile pour générer des diagrammes UML à partir de texte. Peut-être fort combiné avec nos connaissances et l'IA
+
+### Classe
+```mermaid
+classDiagram
+    class etudiant {
+        +String id
+        +String nom
+    }
+    class Pret {
+        +String id
+        +Date dateDebut
+        +Date dateRetour
+        +estActif() bool
+        +cloturer(dateRetour)
+        
+    }
+    class Materiel {
+        +String id
+        +String nom
+    }
+```
+
+### Pour l'évaluation
+- un exo : Partir d'une histoire -> Digramme de cas d'utilisation -> Diagramme de séquence -> Diagramme de classes -> Digrame de MCD
+- un exo : partir du MCD -> Diagramme de classes -> Diagramme de séquence -> Digramme de cas d'utilisation -> Histoire
